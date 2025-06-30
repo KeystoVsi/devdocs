@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# This class provides various helper methods to access and filter elements in a parsed HTML document.
 module Docs
   class Filter < ::HTML::Pipeline::Filter
     def css(*args)
